@@ -24,6 +24,7 @@ User experience
 * Gemini
 
 ## Algorithm
+
 Step 1: Select a specific application, such as AI-based student performance prediction.
 
 Step 2: Choose AI platforms such as ChatGPT and Gemini.
@@ -54,18 +55,464 @@ Step 10: Document the observations, comparison results, and final conclusions ba
 
 ## Selected Application:
 
-##Topic: Blockchain-Based Supply Chain Management System
-1. Basic Prompt
+## Topic: Blockchain-Based Supply Chain Management System
+### 1. Basic Prompt
 Explain how Blockchain technology is used in supply chain management to track products from manufacturers to customers. Describe how it improves transparency and security.
-2. Role Prompt
+### 2. Role Prompt
 Act as a Blockchain technology expert and explain how a Blockchain-Based Supply Chain Management System works. Use simple examples to explain blocks, transactions, product tracking, and decentralization.
-3. Context Prompt
+### 3. Context Prompt
 A company wants to develop a Blockchain-based system to track products during manufacturing, transportation, and delivery. Explain how Blockchain helps maintain product information, improve transparency, and prevent unauthorized changes to records.
-4. Constraint Prompt
+### 4. Constraint Prompt
 Explain a Blockchain-Based Supply Chain Management System in exactly 100 words using simple English. Include product tracking, blocks, transactions, transparency, data security, and two benefits.
-5. Output Format Prompt
+### 5. Output Format Prompt
 Explain a Blockchain-Based Supply Chain Management System using simple English. Organize the answer under four headings: Introduction, Key Components, Working Process, and Benefits. Present the working process in numbered steps and the benefits in bullet points.
 
-## Result
+# Output:
+# 1. Basic Prompt
+# ChatGPT:
+
+# **Blockchain Technology in Supply Chain Management**
+
+## **1. Introduction**
+
+**Blockchain technology** is a digital system that records and stores information in a secure, transparent, and decentralized manner. In supply chain management, blockchain is used to track products as they move from manufacturers to distributors, wholesalers, retailers, and finally to customers.
+
+It creates a shared digital record of every transaction and movement of a product. This helps businesses monitor products, verify their authenticity, and prevent fraud.
+
+## **2. How Blockchain Is Used in Supply Chain Management**
+
+Blockchain tracks products at every stage of the supply chain.
+
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/571d661b-fa17-42af-9501-90757e5b5a21" />
+
+
+The process works as follows:
+
+1\. **Manufacturer:** When a product is manufactured, its details, such as product ID, manufacturing date, batch number, and origin, are recorded on the blockchain.
+
+2\. **Transportation:** When the product is shipped, details such as shipping date, vehicle information, and location are added to the blockchain.
+
+3\. **Distributor:** When the distributor receives the product, the receipt and storage details are recorded.
+
+4\. **Retailer:** When the product reaches the retailer, its arrival, quantity, and other relevant details are updated.
+
+5\. **Customer:** Customers can scan a QR code or barcode to check the product's origin, manufacturing details, and journey from the manufacturer to the store.
+
+<img width="1358" height="667" alt="image" src="https://github.com/user-attachments/assets/566582ae-6e5a-4fa9-9b97-434d3025ec00" />
+
+
+## **3. How Blockchain Improves Transparency**
+
+Blockchain improves transparency in supply chain management in the following ways:
+
+- **Real-time tracking:** Businesses can track the movement of products throughout the supply chain.
+- **Shared information:** Manufacturers, suppliers, distributors, and retailers can access authorized information from the same blockchain network.
+- **Product authenticity:** Customers can verify whether a product is genuine or counterfeit.
+- **Clear product history:** Every transaction and movement is recorded, making it easier to identify where a product came from.
+- **Reduced fraud:** Since records are difficult to alter, businesses can reduce false information and fraudulent activities.
+
+## **4. How Blockchain Improves Security**
+
+Blockchain provides better security through the following features:
+
+- **Data encryption:** Cryptographic techniques protect information stored and shared through the blockchain.
+- **Immutable records:** Once transactions are confirmed and recorded, they are extremely difficult to change or delete.
+- **Decentralization:** Information is shared across multiple computers or network participants rather than being controlled by one central database.
+- **Authentication:** Digital signatures help verify the identity of participants involved in transactions.
+- **Reduced counterfeiting:** Product information can be verified at different stages, helping identify fake products.
+
+## **5. Example of Blockchain in Supply Chain Management**
+
+**Example: Tracking a medicine bottle**
+
+<img width="1200" height="675" alt="image" src="https://github.com/user-attachments/assets/6bbad60f-a481-4158-9f80-9b4ea1243e42" />
+
+
+Suppose a pharmaceutical company manufactures a medicine bottle.
+
+- The manufacturer records its batch number and manufacturing date.
+- The distributor records when the medicine is received and shipped.
+- The pharmacy records when the medicine arrives.
+- The customer scans the QR code to verify its origin and product history.
+
+If someone tries to replace the medicine with a counterfeit product, the product details can be checked against the blockchain records, helping detect suspicious activity.
+
+## **6. Advantages of Blockchain in Supply Chain Management**
+
+1. Improves product traceability.
+2. Increases customer trust.
+3. Reduces counterfeit products.
+4. Improves transparency between companies.
+5. Reduces paperwork and manual errors.
+6. Improves inventory management.
+7. Helps identify delays and problems quickly.
+8. Increases the security of transaction records.
+
+## **7. Conclusion**
+
+Blockchain technology plays an important role in modern supply chain management by providing a secure, transparent, and reliable way to track products from manufacturers to customers. It records every stage of a product's journey, reduces fraud, prevents counterfeiting, and improves trust among all participants. Therefore, blockchain makes supply chains more efficient, secure, and transparent.
+
+Important for exams
+
+**In simple words:** Blockchain acts like a digital tracking book that records every movement of a product from the manufacturer to the final customer. Everyone with authorized access can verify the product's journey, and recorded information is extremely difficult to modify.
+
+
+# Gemini:
+Blockchain technology transforms supply chain management by replacing fragmented, paper-based, or isolated digital databases with a **shared, immutable, and decentralized digital ledger**. Every time a product moves from one party to another, the transaction is recorded as a permanent block, giving everyone involved a single source of truth.
+
+<img width="2048" height="998" alt="image" src="https://github.com/user-attachments/assets/cfcdaf6f-8e02-4467-b0cc-60d71ac28bbd" />
+
+
+---
+
+### How tracking works from manufacturer to customer
+
+A blockchain supply chain tracks an item’s entire lifecycle through distinct milestones:
+
+1. **Origin & Creation:** The manufacturer logs raw material sourcing, production dates, and batch numbers onto the blockchain via IoT sensors or manual entry, generating a unique digital token or QR code for the product.
+2. **Transit & Logistics:** As goods are handed over to shipping companies or freight forwarders, smart contracts (self-executing code) automatically update the ledger when environmental conditions (like temperature or GPS coordinates) are met.
+3. **Warehousing & Distribution:** Wholesalers and regional distribution centers scan the items upon arrival, recording custody transfer instantly without paperwork delays.
+4. **Retail & Final Delivery:** Retailers stock the item, and when a customer buys it, the final ownership shift is recorded. Consumers can then scan a QR code on the packaging to verify the exact journey of their product.
+
+---
+
+### Improving transparency
+
+Traditional supply chains suffer from information silos where manufacturers, suppliers, and retailers maintain separate records, making it hard to trace errors or delays. Blockchain solves this by:
+
+* **Real-time visibility:** All authorized participants see the exact same data simultaneously, eliminating bottlenecks and disputes over shipment status.
+* **Proof of provenance:** Consumers and businesses can instantly verify claims like "organic," "fair trade," or "locally sourced" by inspecting the unbroken chain of custody back to the raw material supplier.
+* **Accountability:** If a batch of perishable goods spoils during transit, the ledger pinpointed exactly who had custody and at what timestamp the temperature threshold was breached.
+
+---
+
+### Enhancing security
+
+Supply chains are prime targets for counterfeiting, theft, and document tampering. Blockchain secures the network through:
+
+* **Immutability:** Once a transaction or status update is validated and added to the blockchain, it **cannot be altered or deleted** retroactively by any single party.
+* **Decentralization:** Because the ledger is distributed across multiple nodes rather than stored on a single vulnerable corporate server, there is no single point of failure or hacking target.
+* **Cryptographic safety:** Every participant uses cryptographic keys to sign transactions, ensuring that data inputs are authenticated and malicious actors cannot inject fake updates or falsify shipping manifests.
+
+# 2. Role Prompt
+# ChatGPT:
+
+Blockchain-Based Supply Chain Management System
+A Blockchain-Based Supply Chain Management System uses blockchain technology to track products securely from manufacturers to customers. It stores every product movement in a shared digital ledger that is difficult to modify.
+1. Blocks
+Blocks are digital containers that store information about product movements.
+
+Example: A block contains a medicine's manufacturing date, batch number, and manufacturer details.
+2. Transactions
+Transactions are records of activities performed during the supply chain.
+
+Example: When a medicine moves from the manufacturer to a distributor, the transfer details are recorded as a transaction.
+3. Product Tracking
+Blockchain tracks products at every stage of the supply chain.
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/101a8488-a6bd-4ddd-93da-9b5aca81f7a2" />
+
+
+Example:
+- Manufacturer produces the product.
+- Distributor receives and transports it.
+- Retailer receives and stores it.
+- Customer scans a QR code to check product details.
+  4. Decentralization
+Decentralization means that information is shared among multiple authorized participants instead of being controlled by one organization.
+
+Example: Manufacturers, distributors, and retailers can access the same blockchain records, reducing the chances of data manipulation.
+5. Benefits
+- Transparency: Everyone can verify product information.
+- Security: Records are difficult to modify.
+- Traceability: Products can be tracked easily.
+- Trust: Helps prevent counterfeit products.
+- Efficiency: Reduces paperwork and errors.
+Conclusion
+Blockchain makes supply chain management more secure, transparent, and reliable by recording every transaction and tracking products from manufacturers to final customers.
+
+# Gemini :
+Think of a blockchain supply chain as a shared, digital diary that multiple independent businesses (farmers, shippers, factories, and retailers) write in together. No single company controls the diary, and once something is written in pen, it can never be erased or changed.
+
+To understand how it works under the hood, let's break down its core mechanics using a simple example: tracking Alphonso mangoes from an orchard in Maharashtra to a supermarket in Mumbai.
+<img width="2048" height="1639" alt="image" src="https://github.com/user-attachments/assets/bcbd8034-0f22-49d7-8d70-a7a8e22fea4b" />
+
+1. Decentralization: No Single Boss
+In a traditional supply chain, the supermarket or logistics giant runs the central computer database. If their server goes down or gets hacked, data can be lost or manipulated.
+
+The Blockchain Way: Every participant—the orchard farmer, the trucking company, the cold-storage warehouse, and the supermarket—holds an identical copy of the digital ledger on their own computer (called a node).
+
+The Simple Example: If the trucking company tries to secretly change the pickup time on their local copy to hide a delay, the system checks all other copies. Because the farmer’s, warehouse’s, and supermarket’s ledgers still show the original correct time, the tampering is instantly rejected by the network.
+
+2. Transactions: Every Step is a Digital Event
+In blockchain terminology, a transaction isn't just money changing hands—it is any verified event or transfer of custody.
+
+The Simple Example: When Farmer Patil hands 500 crates of mangoes to Transporter Kumar, Kumar’s handheld scanner logs this event. This digital record contains:
+
+Who: Patil transferred goods to Kumar.
+
+What: 500 crates of Alphonso mangoes, Batch #MH-442.
+
+When & Where: 6:00 AM at Ratnagiri Farm, GPS coordinates logged.
+
+Digital Signatures: Both Patil and Kumar sign off using their private cryptographic keys.
+
+3. Blocks: Bundling the Journal Pages
+Transactions aren't written to the permanent ledger one by one; they are grouped together into blocks, much like filling a single page of a logbook before turning to the next.
+
+The Simple Example: Throughout the morning, hundreds of individual steps happen: harvesting, loading, weighing, and temperature checks. Once a page (block) is full of these transactions, the system seals it with a cryptographic lock called a hash (a unique digital fingerprint).
+
+The Chain: Every new block is permanently linked to the cryptographic fingerprint of the block that came right before it. If someone tries to alter a transaction from three blocks ago, it breaks the mathematical link for every block that follows it, immediately alerting the entire network.
+
+4. Product Tracking: The Complete Journey
+When all these blocks are linked sequentially, you get an unbroken, transparent timeline of the product's entire journey.
+
+Orchard: Block #1 logs the harvest date, organic certification, and initial batch ID.
+
+Transit: Block #2 logs the transport conditions (e.g., IoT sensors record that the refrigerated truck stayed at a steady 4°C for 12 hours).
+
+Warehouse: Block #3 logs arrival at the distribution hub and quality check results.
+
+Supermarket Shelf: Block #4 logs delivery to the retail store.
+
+When a customer picks up a box of mangoes in Mumbai, they scan the QR code on the packaging. The app instantly queries the blockchain, pulling up the exact history across Blocks 1 through 4, proving the fruit is genuinely organic and fresh.
+
+# 3. Context Prompt
+# ChatGPT:
+
+Blockchain-Based Product Tracking System
+A company can use Blockchain technology to track products throughout manufacturing, transportation, and delivery.
+
+1. Maintaining Product Information: Blockchain records product details such as product ID, manufacturing date, batch number, location, and delivery status in digital blocks.
+
+2. Improving Transparency: Manufacturers, suppliers, transporters, and customers can access authorized product information and track the product at every stage.
+
+3. Preventing Unauthorized Changes: Blockchain uses cryptography and decentralized storage. Once a transaction is verified and recorded, it is extremely difficult to modify or delete.
+
+4. Product Tracking: QR codes can help customers scan and check the product's journey from the manufacturer to the final destination.
+
+Example: A company manufacturing mobile phones records production details in blockchain. When phones are transported to distributors and retailers, every movement is recorded and verified.
+
+Conclusion: Blockchain improves product tracking, ensures transparency, protects records from unauthorized changes, and builds trust among customers and businesses.
+
+# Gemini :
+
+1. Maintaining product information
+A blockchain-based system records every operational milestone as a permanent digital entry:
+
+Digital Identity at Birth: During manufacturing, each product or batch is assigned a unique digital token or QR code linked to its specifications, production date, and raw material origins.
+
+Automated Data Ingestion: As goods move, IoT sensors, RFID tags, and warehouse scanners feed live data—such as GPS coordinates, handling temperatures, or assembly timestamps—directly onto the ledger without manual paperwork.
+
+Lifecycle Continuity: Every time ownership or custody shifts (from factory to freight carrier, then to distribution hub, and finally to the delivery partner), a new transaction is logged, creating an unbroken chain of custody.
+
+2. Improving transparency
+Traditional supply chains suffer from data silos where suppliers, logistics firms, and retailers keep their own logs, making it hard to trace delays or verify product authenticity. Blockchain fixes this by providing:
+
+Single Source of Truth: All authorized stakeholders view the exact same data simultaneously. If a shipment is delayed at a transit hub, everyone sees it in real time.
+
+Verifiable Provenance: Retailers and end consumers can instantly verify authenticity claims (like organic certification or anti-counterfeit checks) by inspecting the product's history back to its manufacturer.
+
+Clear Accountability: If goods are damaged or spoiled in transit, the system instantly highlights who had custody at the exact timestamp of the incident, cutting down dispute resolution times.
+
+3. Preventing unauthorized changes
+To ensure records cannot be faked, hacked, or covertly edited after the fact, blockchain relies on core architectural safeguards:
+
+Cryptographic Hashing: Every block of data is sealed with a unique mathematical fingerprint (hash). If even a single digit in a past shipping manifest is altered, its hash changes entirely, breaking the cryptographic link to all subsequent blocks.
+
+Decentralization: Instead of storing data on a single corporate server that a malicious insider or hacker could target, copies of the ledger are distributed across multiple independent nodes (nodes belonging to the manufacturer, logistics partner, and auditor).
+
+Consensus Validation: New updates must be validated by the network's agreed-upon rules before being added. No single party has unilateral authority to delete or rewrite past records.
+
+# 4. Constraint Prompt
+# ChatGPT:
+A Blockchain-Based Supply Chain Management System uses blockchain technology to track products from manufacturers to customers. Every product movement, such as manufacturing, transportation, and delivery, is recorded as a transaction. These transactions are stored in blocks connected together to form a blockchain. All authorized participants can view product information, improving transparency. Blockchain uses cryptography to protect data and prevents unauthorized changes to recorded information. For example, customers can scan QR codes to check a product's journey. Two major benefits are improved product traceability and reduced fraud. Thus, blockchain makes supply chain management more secure, transparent, and reliable.
+
+# Gemini :
+A blockchain supply chain management system uses a shared digital ledger for product tracking from factory to customer. Every single step, like shipping or loading, is recorded as a transaction. These transactions group into secured data blocks linked in a permanent chain. Because multiple computers verify everything, data security remains very high. Everyone shares the same updated view, creating complete transparency. This system delivers two main benefits: it prevents counterfeiting and builds absolute customer trust. By removing middlemen, companies save time, cut operating costs, and easily resolve disputes while ensuring total accountability everywhere across the entire global trade network today.
+
+# 5. Output Format Prompt
+# ChatGPT:
+
+Blockchain-Based Supply Chain Management System
+1. Introduction
+A Blockchain-Based Supply Chain Management System uses blockchain technology to track products from manufacturers to customers. It stores product information securely and makes it difficult to change recorded data.
+2. Key Components
+- Blocks: Store product information and transaction details.
+- Transactions: Record product movements and ownership changes.
+- Decentralization: Shares information among authorized participants.
+- Cryptography: Protects data from unauthorized changes.
+- QR Codes: Help customers check product details.
+3. Working Process
+1. Manufacturing: Product details, such as product ID and manufacturing date, are recorded.
+2. Transportation: Shipping and location details are added to the blockchain.
+3. Distribution: Distributors update product receipt and movement details.
+4. Delivery: Retailers receive the products and update delivery records.
+5. Customer: Customers scan QR codes to verify product information and history.
+4. Benefits
+- Transparency: Everyone can view authorized product information.
+- Security: Prevents unauthorized changes to records.
+- Traceability: Tracks products at every stage.
+- Reduced Fraud: Helps identify fake products.
+- Efficiency: Reduces paperwork and human errors.
+Conclusion: Blockchain makes supply chain management more secure, transparent, reliable, and efficient.
+
+# Gemini :
+
+A blockchain-based supply chain management system uses a shared, unchangeable digital ledger to track products securely from the factory floor all the way to the end customer.
+
+Introduction
+In traditional supply chains, every company keeps its own isolated records, leading to communication gaps, lost paperwork, and fake goods. Blockchain solves this by creating a single system of truth that all partners—manufacturers, shippers, warehouses, and retailers—share together on a decentralized network.
+
+Key Components
+Decentralized Network: Copies of the ledger are stored on multiple computers (nodes) owned by different supply chain partners, meaning no single company has total control or a single point of failure.
+
+Transactions: Every time an action happens—like manufacturing a batch, loading a truck, or scanning a barcode—it is recorded as a verified digital transaction.
+
+Blocks & Chains: Transactions are grouped into pages called blocks, which are securely locked with cryptographic math and linked in chronological order.
+
+Smart Contracts: Self-executing digital agreements that automatically trigger actions, such as releasing payment when a shipment successfully clears customs.
+
+Working Process
+Creation: The manufacturer registers a product or batch on the blockchain, assigning it a unique digital identity or QR code along with its origin details.
+
+Transit: As the product moves, logistics partners scan the item at each milestone, logging real-time data like GPS coordinates and temperature into a new block.
+
+Distribution: Warehouses and regional hubs verify receipt of the shipment instantly without waiting for manual paperwork or emails.
+
+Delivery: The final handover to the retailer or customer is recorded, permanently sealing the product's entire history onto the chain.
+
+Benefits
+Complete Transparency: Every stakeholder and customer can instantly view the exact journey of a product, verifying its authenticity and sourcing claims.
+
+Enhanced Security: Cryptographic linking and decentralization make it impossible for anyone to tamper with, hack, or secretly rewrite past shipping records.
+
+Fraud Prevention: Stops counterfeit goods from entering the market since fake items cannot replicate a legitimate, verified blockchain history.
+
+Faster Dispute Resolution: Eliminates finger-pointing when goods are delayed or damaged because timestamped custody logs prove who handled the item at any given moment.
+
+Below is the complete analysis prepared for your experiment, following the same headings, tables, ranking, observations, and result format as your reference.
+
+# **COMPARISON**
+
+| **Prompt Type**      | **Platform** | **Accuracy** | **Coherence** | **Simplicity** | **Speed** | **User Experience** |
+| -------------------- | ------------ | ------------ | ------------- | -------------- | --------- | ------------------- |
+| Basic Prompt         | ChatGPT      | Excellent    | Excellent     | Excellent      | Very Fast | Excellent           |
+|                      | Gemini       | Excellent    | Excellent     | Good           | Very Fast | Good                |
+| Role Prompt          | ChatGPT      | Excellent    | Excellent     | Excellent      | Very Fast | Excellent           |
+|                      | Gemini       | Excellent    | Very Good     | Good           | Fast      | Very Good           |
+| Context Prompt       | ChatGPT      | Excellent    | Excellent     | Excellent      | Very Fast | Excellent           |
+|                      | Gemini       | Excellent    | Excellent     | Very Good      | Fast      | Excellent           |
+| Constraint Prompt    | ChatGPT      | Excellent    | Excellent     | Excellent      | Very Fast | Excellent           |
+|                      | Gemini       | Excellent    | Excellent     | Excellent      | Very Fast | Excellent           |
+| Output Format Prompt | ChatGPT      | Excellent    | Excellent     | Excellent      | Very Fast | Excellent           |
+|                      | Gemini       | Excellent    | Excellent     | Very Good      | Very Fast | Excellent           |
+
+
+## **RESULT SUMMARY**
+
+| **Category**            | **Best Performer**       | **Reason**                                                                |
+| ----------------------- | ------------------------ | ------------------------------------------------------------------------- |
+| Best Overall Platform   | ChatGPT                  | Provides simple, clear, and well-organized explanations.                  |
+| Most Accurate Response  | ChatGPT & Gemini (Tie)   | Both explain blockchain concepts and supply chain applications correctly. |
+| Most Coherent Response  | ChatGPT & Gemini (Tie)   | Both maintain a logical flow while explaining the working process.        |
+| Simplest Explanation    | ChatGPT                  | Uses straightforward language and easy-to-understand examples.            |
+| Best User Experience    | ChatGPT                  | Provides readable and well-structured information.                        |
+| Best Prompt Type        | Context Prompt           | Explains blockchain through a realistic supply chain scenario.            |
+| Recommended Combination | ChatGPT + Context Prompt | Provides balanced, relevant, and practical explanations.                  |
+
+## **PERFORMANCE COMPARISON BY PROMPT TYPE**
+
+| **Prompt Type**      | **Accuracy** | **Coherence** | **Simplicity** | **Speed** | **User Experience** | **Overall Performance** |
+| -------------------- | ------------ | ------------- | -------------- | --------- | ------------------- | ----------------------- |
+| Basic Prompt         | Excellent    | Excellent     | Very Good      | Very Fast | Very Good           | Very Good               |
+| Role Prompt          | Excellent    | Excellent     | Excellent      | Very Fast | Excellent           | Excellent               |
+| Context Prompt       | Excellent    | Excellent     | Excellent      | Very Fast | Excellent           | Outstanding             |
+| Constraint Prompt    | Excellent    | Excellent     | Excellent      | Very Fast | Excellent           | Excellent               |
+| Output Format Prompt | Excellent    | Excellent     | Excellent      | Very Fast | Excellent           | Outstanding             |
+
+## **RANKING OF PROMPT TYPES**
+
+| **Rank** | **Prompt Type**      | **Reason**                                                                                     |
+| -------- | -------------------- | ---------------------------------------------------------------------------------------------- |
+| 1        | Context Prompt       | Provides a realistic supply chain scenario and practical application of blockchain technology. |
+| 2        | Output Format Prompt | Produces structured and organized information with clear headings and steps.                   |
+| 3        | Role Prompt          | Explains blockchain concepts using simple examples and suitable explanations.                  |
+| 4        | Constraint Prompt    | Follows specific requirements and produces concise explanations.                               |
+| 5        | Basic Prompt         | Provides a general explanation without additional context.                                     |
+
+## **MOST EFFECTIVE PROMPT TYPE**
+
+After evaluating all five prompting techniques using ChatGPT and Gemini, the **Context Prompt** was identified as the most effective overall technique.
+
+**Reasons for Selecting Context Prompt:**
+
+- Provides a clear real-world supply chain scenario.
+- Helps the AI understand the purpose of the blockchain system.
+- Produces relevant and meaningful explanations.
+- Connects theoretical blockchain concepts with practical applications.
+- Explains how blockchain maintains product information, improves transparency, and prevents unauthorized changes.
+- Demonstrates how products can be tracked during manufacturing, transportation, and delivery.
+
+### **Best Platform for Context Prompt: ChatGPT**
+
+ChatGPT performed slightly better because:
+
+- It presented the blockchain working process in a clear manner.
+- It organized the information into meaningful sections.
+- It provided simple examples related to product tracking.
+- It explained transparency, data security, and product traceability clearly.
+- It presented relevant benefits of blockchain-based supply chain management.
+
+Gemini also generated a relevant response and explained advanced features such as IoT sensors, RFID tags, cryptographic hashing, and decentralized networks. However, ChatGPT provided a simpler and more organized explanation suitable for undergraduate students.
+
+## **OBSERVATIONS**
+
+**1. Basic Prompt:**
+
+- Both platforms generated relevant explanations about blockchain-based supply chain management.
+- ChatGPT provided a detailed and straightforward explanation of product tracking.
+- Gemini included additional details about smart contracts, real-time visibility, and product authenticity.
+- Both platforms explained how blockchain improves transparency and security.
+- ChatGPT presented the information in a more organized manner.
+
+**2. Role Prompt:**
+
+- ChatGPT explained blockchain concepts using simple examples involving blocks, transactions, product tracking, and decentralization.
+- Gemini adopted an explanatory teaching style and used an example of tracking Alphonso mangoes from Maharashtra to Mumbai.
+- Both platforms made blockchain concepts easier to understand.
+- ChatGPT provided a more structured explanation, while Gemini provided more detailed real-world examples.
+
+**3. Context Prompt:**
+
+- ChatGPT explained how blockchain maintains product information, improves transparency, prevents unauthorized changes, and supports product tracking.
+- Gemini provided detailed explanations of digital product identity, IoT sensors, RFID tags, and lifecycle tracking.
+- Both platforms demonstrated how blockchain can be used to track products throughout the supply chain.
+- Context Prompt produced practical and relevant explanations by connecting blockchain technology with a real-world business situation.
+- ChatGPT provided a simpler and more direct explanation of the given scenario.
+
+**4. Constraint Prompt:**
+
+- Both platforms generated concise explanations using simple English.
+- ChatGPT covered product tracking, transactions, blocks, transparency, data security, and two major benefits.
+- Gemini explained the shared digital ledger and highlighted benefits such as counterfeit prevention and customer trust.
+- Both platforms followed the requirement of exactly 100 words.
+- Both responses were clear and directly related to the given requirements.
+
+**5. Output Format Prompt:**
+
+- ChatGPT followed the requested headings: Introduction, Key Components, Working Process, and Benefits.
+- Gemini provided detailed explanations of blockchain components, including decentralized networks, transactions, blocks, chains, and smart contracts.
+- Both platforms explained the working process through the different stages of the supply chain.
+- ChatGPT presented the information in a simple and organized format.
+- Gemini included additional technical details and practical applications.
+- The structured format made the responses easier to read and understand.
+
+## **RESULT**
+
+Thus, the experiment was successfully performed by designing and evaluating five different prompt structures (Basic, Role, Context, Constraint, and Output Format) using ChatGPT and Gemini for Blockchain-Based Supply Chain Management.
+
+The comparison showed that the **Context Prompt** was the most effective prompting technique because it provided a realistic business scenario, relevant explanations, and practical applications of blockchain technology. ChatGPT delivered slightly better overall results in terms of simplicity, organization, and clarity, while Gemini provided useful additional technical details and real-world examples.
+
+Therefore, **ChatGPT with Context Prompt** was identified as the recommended combination for generating clear, relevant, and meaningful explanations of Blockchain-Based Supply Chain Management Systems.
 
 
